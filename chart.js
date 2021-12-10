@@ -114,8 +114,7 @@ H5P.Chart = (function ($, EventDispatcher) {
 
     const $defgroup = $('<div/>', {
       'class': 'hidden-but-read',
-      'aria-label': self.params.figureDefinition,
-      'role': 'img' // Using img here since support for figure is non-existent (Will they know the difference?)
+      'html': self.params.figureDefinition,
     });
 
     // Add aria-labels for the data
