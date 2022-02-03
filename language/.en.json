@@ -1,40 +1,40 @@
 {
   "semantics": [
     {
-      "label": "Type of chart",
+      "label": "చార్ట్ రకం",
       "options": [
         {
-          "label": "Pie Chart"
+          "label": "పై చార్ట్"
         },
         {
-          "label": "Bar Chart"
+          "label": "బార్ చార్ట్"
         }
       ]
     },
     {
-      "label": "Data elements",
-      "entity": "option",
+      "label": "డేటా ఎలిమెంట్స్",
+      "entity": "ఆప్షన్",
       "field": {
-        "label": "Data element",
+        "label": "డేటా ఎలిమెంట్",
         "fields": [
           {
-            "label": "Name"
+            "label": "పేరు"
           },
           {
-            "label": "Value"
+            "label": "వాల్యూ"
           },
           {
-            "label": "Color"
+            "label": "రంగు"
           },
           {
-            "label": "Font Color"
+            "label": "ఫాంట్ రంగు"
           }
         ]
       }
     },
     {
       "label": "Text read by readspeakers defining the figure as a chart.",
-      "default": "Chart"
+      "default": "చార్ట్ "
     }
   ]
 }
